@@ -1,0 +1,65 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Cache and history directories
+.npm/
+.eslintcache
+.node_repl_history
+.yarn-integrity
+.cache/
+.vscode-test
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# VS Code specific files (keep settings.json for shared project config)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Project specific
+# Keep assets directory but ignore specific file types within
+assets/**/*.tmp
+assets/**/*.temp
+
+# Compiled output
+**/*.min.js
+**/*.min.css
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
